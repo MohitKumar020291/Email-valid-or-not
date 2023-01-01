@@ -5,4 +5,4 @@ Today I created a small project of checking whether or not your email is valid u
 # Some more things I have commented out in my code.
 Created this as a beginner and improving more.
 Believes in project based learning.
-This is just an example of my project journey and will posting some more   
+This is just an example of my project journey and will be posting some more.   
