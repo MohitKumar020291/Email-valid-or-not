@@ -5,13 +5,13 @@ if len(email) >= 7: # checkihng whether min length of stadard email satisfy or n
         if ("@" in email) and (email.count("@") == 1): # checking @ present in email or not and not more than once
             if (email[-4] == ".") ^ (email[-3] == "."): #this is checking letter by index method -4(.com) and -3(.in)
                 for i in email: #using for loop to check each letter of string(email)
-                    if i == i.isspace():
+                    if i == i.isspace(): # If it is blank or not
                         k = 1
-                    elif i == i.upper():
+                    elif i == i.upper(): #if there is any letter is in capslock form 
                         j = 1
-                    elif i == i.isdigit():
+                    elif i == i.isdigit(): #if there is a digit in email
                         continue
-                    elif i == "_" or i == "." or i == "@":
+                    elif i == "_" or i == "." or i == "@":  #if any of them is present
                         continue
                     else:
                         d = 1    
