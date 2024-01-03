@@ -26,3 +26,4 @@ if len(email) >= 7: # checkihng whether min length of stadard email satisfy or n
 else:
     print("Wrong Email 1 : Email is totally wrong")
     
+# this is a comment
